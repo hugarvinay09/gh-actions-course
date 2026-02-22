@@ -1,0 +1,10 @@
+name: Workflow Event Trigger
+
+on: push 
+
+jobs:
+  workflow-job-event:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Trigger workflow job event
+        run: echo "This is a workflow job event triggered by a push."
