@@ -19,3 +19,10 @@ jobs:
         run : |
            echo "Hello World"
            echo "This workflow is running on windows-latest runner: $RUNNER_OS"
+  mac-runner:
+    runs-on: macos-latest
+    steps:
+      - name: It's runns on macos-latest
+        run : |
+           echo "Hello World"
+           echo "This workflow is running on macos-latest runner: $RUNNER_OS"
