@@ -15,6 +15,7 @@ jobs:
     runs-on: windows-latest
     steps:
       - name: It's runns on windows-latest
+        shell: bash
         run : |
-           echo "Hello World"
-           echo "This workflow is running on windows-latest runner: $RUNNER_OS"
+          echo "Hello World"
+          echo "This workflow is running on windows-latest runner: $RUNNER_OS"
