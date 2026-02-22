@@ -8,6 +8,9 @@
     "react-dom": "^18.2.0",
     "react-scripts": "5.0.1"
   },
+  "devDependencies": {
+    "@testing-library/react": "^13.0.0"
+  },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
@@ -19,12 +22,6 @@
       "react-app"
     ]
   },
-
-  {
-  "devDependencies": {
-    "@testing-library/react": "^13.0.0"
-  }
-}
   "browserslist": {
     "production": [
       ">0.2%",
