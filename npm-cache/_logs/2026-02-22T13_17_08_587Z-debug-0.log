@@ -1,0 +1,38 @@
+0 verbose cli C:\Program Files\nodejs\node.exe C:\Program Files\nodejs\node_modules\npm\bin\npm-cli.js
+0 verbose cli C:\Program Files\nodejs\node.exe C:\Program Files\nodejs\node_modules\npm\bin\npm-cli.js
+1 info using npm@11.8.0
+1 info using npm@11.8.0
+2 info using node@v24.13.1
+2 info using node@v24.13.1
+3 silly config load:file:C:\Program Files\nodejs\node_modules\npm\npmrc
+3 silly config load:file:C:\Program Files\nodejs\node_modules\npm\npmrc
+4 silly config load:file:d:\gh-actions-course\.npmrc
+4 silly config load:file:d:\gh-actions-course\.npmrc
+5 silly config load:file:C:\Users\ADMIN\.npmrc
+5 silly config load:file:C:\Users\ADMIN\.npmrc
+6 silly config load:file:C:\Users\ADMIN\AppData\Roaming\npm\etc\npmrc
+6 silly config load:file:C:\Users\ADMIN\AppData\Roaming\npm\etc\npmrc
+7 verbose title npm view react-scripts description dist-tags.latest homepage version time
+7 verbose title npm view react-dom description dist-tags.latest homepage version time
+8 verbose argv "view" "--json" "--" "react-scripts" "description" "dist-tags.latest" "homepage" "version" "time"
+8 verbose argv "view" "--json" "--" "react-dom" "description" "dist-tags.latest" "homepage" "version" "time"
+9 verbose logfile logs-max:10 dir:D:\gh-actions-course\npm-cache\_logs\2026-02-22T13_17_08_587Z-
+9 verbose logfile logs-max:10 dir:D:\gh-actions-course\npm-cache\_logs\2026-02-22T13_17_08_587Z-
+10 verbose logfile D:\gh-actions-course\npm-cache\_logs\2026-02-22T13_17_08_587Z-debug-0.log
+10 verbose logfile D:\gh-actions-course\npm-cache\_logs\2026-02-22T13_17_08_587Z-debug-0.log
+11 silly logfile done cleaning log files
+11 silly logfile done cleaning log files
+12 http fetch GET 200 https://registry.npmjs.org/react-scripts 452ms (cache revalidated)
+13 verbose cwd d:\gh-actions-course
+14 verbose os Windows_NT 10.0.26200
+15 verbose node v24.13.1
+16 verbose npm  v11.8.0
+17 verbose exit 0
+18 info ok
+12 http fetch GET 200 https://registry.npmjs.org/react-dom 503ms (cache revalidated)
+13 verbose cwd d:\gh-actions-course
+14 verbose os Windows_NT 10.0.26200
+15 verbose node v24.13.1
+16 verbose npm  v11.8.0
+17 verbose exit 0
+18 info ok
