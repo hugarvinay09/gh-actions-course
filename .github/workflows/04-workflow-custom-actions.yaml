@@ -2,7 +2,7 @@ name: 04 - using actions
 
 on: [push]
 jobs:
-  build
+  build:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
