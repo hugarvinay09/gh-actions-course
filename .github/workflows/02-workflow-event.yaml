@@ -1,6 +1,11 @@
 name: Workflow Event Trigger
 
-on: push 
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+  schedule:
+    - cron: '59 9 * * *' # Runs every day at midnight
 
 jobs:
   workflow-job-event:
