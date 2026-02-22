@@ -1,7 +1,6 @@
 name: 02 - Workflow Event Trigger
 
 on:
-  pull_request:
   workflow_dispatch:
 
 jobs:
