@@ -1,9 +1,6 @@
-# See 05-filters-activity-types/README.md for more information
-# about filtering and specifying activity types for events.
-
-name: 05 - 1 - Event Filters and Activity Types
-
+name: 05 - 1 - Event Filters and Activity Types!!
 on:
+  push:
   pull_request:
     types:
       - opened
@@ -15,4 +12,4 @@ jobs:
   echo:
     runs-on: ubuntu-latest
     steps:
-      - run: echo "Running whenever a PR is opened or synchronized AND base branch is main"
+      - run: echo "Running whenever a PR is opened or synchronized AND base branch is main!!!!"
